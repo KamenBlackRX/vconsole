@@ -10,7 +10,7 @@
 CXX=g++
 
 #GTKFLAGS=-Wextra $(shell pkg-config --cflags --libs gtk+-3.0)
-CFLAGS=-g -std=c++11 -Wreturn-local-addr
+CFLAGS=-g -std=c++11 -Wreturn-local-addr -pthread
 CPPFLAGS=-D DEBUG
 LDFLAGS=-L 
 SOURCE=$(wildcard src/*.cpp)

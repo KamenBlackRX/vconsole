@@ -61,7 +61,7 @@ private:
 	{
 	   int port = 7878;
 	   int socketHandle;
-	   void gethostname (char** bufferchar* hostname, int MaxHostName = 256)
+	   void gethostname (char** buffer, char* hostname, int MaxHostName = 256)
 	   {
 	   	
 	   }
